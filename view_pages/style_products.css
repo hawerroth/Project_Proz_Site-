@@ -8,7 +8,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ebf6f2;
+  background-color:#d7f2e9;
   box-shadow: 0px 0px 2px black;
 }
 
@@ -18,7 +18,7 @@ header nav ul {
 }
 
 header nav {
-  background-color: #ebf6f2;
+  background-color:#d7f2e9;
 }
 
 nav li {
@@ -53,7 +53,7 @@ h1 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
 }
 .products-photos img {
-  background: #d7f2e9;
+  background: #ebf6f2;
   justify-content: center;
   width:300px;
   height: 300px;
@@ -94,6 +94,7 @@ h1 {
 
 
 .card-photo {
+  background-color: #ebf6f2;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   justify-content: center;
@@ -131,11 +132,15 @@ h1 {
 }
 
 footer {
+  background-color: #d7f2e9;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 footer ul {
   list-style: none;
+  padding:10px 0;
 }
 
 .rede-sociais {
@@ -143,5 +148,4 @@ footer ul {
 }
 
 .rede-sociais li {
-  justify-content: space-around;
-}
+padding: 15px;}
