@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Formulário ONG</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style_formulario.css">
+    <link rel="shortcut icon" href="/images/logo_teste_5.png" type="image/x-icon" />
 </head>
 <body>
     <header>
-        <span>LOGO</span>
+      <div id="logo">
+        <img src="/images/logo_teste_5.png">
+    </div>
         <nav>
             <ul>
               <li>
-                <a href="Home page.html">Início</a>
+                <a href="Homepage.html">Início</a>
               </li>
               <li>
                 <a href="about.html">Sobre nós</a>
@@ -35,31 +39,32 @@
                 <legend> <b>Formulário</b> </legend>
                 <br><br>
                 <div class="inputBox">
-                    <label for="nome">Nome Completo</label>
+                    <label  for="nome"  class="labelInput">Nome Completo</label> 
                     <input type="text" name="nome" id="nome" class="inputUser" required>
                 </div>
-                <br><br>
+                  <br><br>
                 <div class="inputBox">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="inputUser" required>
+                    <label  for="email" class="labelInput">Email</label>
+                    <input type="text" name="email" id="email" class="inputUser" required>
                 </div>
-                <br><br>
-                <div class="inputBox">
-                    <label for="cidade">Cidade</label>
+                  <br><br>
+                  <div class="inputBox">
+                    <label for="cidade"  class="labelInput">Cidade</label>
                     <input type="text" name="cidade" id="cidade" class="inputUser" required>
-                <div class="inputBox">
+                  </div>
                     <br><br>
-                    <label for="estado">Estado</label>    
+                  <div class="inputBox">
+                    <label for="estado"  class="labelInput">Estado</label>    
                     <input type="text" name="estado" id="estado" class="inputUser" required>
-                    </div>
-                    <br><br>
-                    <div class="inputBox">
-                        <label for="telefone">Telefone</label>
+                  <br><br>
+                  </div>
+                    <br>
+                <div class="inputBox">
+                        <label for="telefone"  class="labelInput">Telefone</label>
                         <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                        </div>
-                    <br><br>
                 </div>
-                <p>Quero Ser:</p>
+                        <br><br>
+                <p>Apoiador:</p>
                     <label for="voluntario">Voluntario</label>    
                     <input type="radio" name="tipo_doador" id="voluntario" value="voluntario" required>
                     <label for="patrocinador">Patrocinador</label>
@@ -68,6 +73,7 @@
                     <input type="radio" name="tipo_doador" id="doador" value="doador" required>
                     <br><br>
                     <input type="submit" name="submit" id="submit">
+                    <br><br>
             </fieldset>
 
         </form>
