@@ -40,6 +40,15 @@
     margin: 55px 0;
     text-align: center;
   }
+
+  div {
+   
+    display: flex;
+    justify-content: space-around;
+    background-color: #d7f2e9;
+    
+}
+  
   
   footer {
     background-color: #d7f2e9;
