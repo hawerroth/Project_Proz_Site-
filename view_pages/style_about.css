@@ -1,20 +1,25 @@
 *{margin: 0; padding: 0;}
     
-header{ padding:15px;
+header{ padding:15px 20px;
         display: flex;
         justify-content:space-between;
         background-color:#d7f2e9;
     
         box-shadow: 0px 0px 2px black;}
     
-    
+.logo img{ width: 75px;
+  border-radius: 50%;
+  border: solid 2px red;
+}
+        
 header nav .menu { list-style: none;
     display: flex;}
 
 nav{padding: 5px;}
 
 a { text-decoration: none;
-color: black;}
+color: black;
+font-weight: bolder;}
 
 body{background-color: #EEEEEE;}
 
