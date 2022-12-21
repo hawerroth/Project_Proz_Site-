@@ -84,7 +84,7 @@ footer ul {
 span {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 nav li {
